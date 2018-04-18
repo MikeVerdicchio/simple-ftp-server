@@ -1,6 +1,8 @@
 Simple FTP Server
 =================
-This repository contains the source code for a simple FTP server. Note, this was an assignment for Operating Systems (CS 4414) at the University of Virginia. If you are a current student in, or are planning to take, CS 4414, it is an **Honor Violation** to view this source code. 
+This repository contains the source code for a simple FTP server. This was an assignment for Operating Systems (CS 4414) at the University of Virginia.
+
+**Note: If you are a current student in, or are planning to take, CS 4414, it is an Honor Violation to view this source code.**
 
 
 
@@ -16,7 +18,7 @@ Usage
 -----
 ```
 make
-./ftp_server <*port*>
+./ftp_server <port>
 ```
 
 Once running, you can test the implementation by opening another shell window and connecting to localhost (via FTP) on the port you used to run the server.
